@@ -1,0 +1,40 @@
+# Privacy Policy for Vocabook
+
+**Last Updated: March 9, 2026**
+
+Vocabook ("we", "us", or "our") respects your privacy and is committed to protecting it. This Privacy Policy explains how our mobile application handles information.
+
+## 1. Local-First Processing (Offline AI)
+Vocabook is designed as a **local-first** application. This means that almost all processing happens directly on your device:
+*   **Text-to-Speech (TTS)**: Speech generation is performed locally using the Kokoro and eSpeak-NG engines.
+*   **AI Summarization & Generation**: Our AI features (using the Gemma model) run locally on your device's GPU/CPU. Your text is never sent to our servers for processing.
+*   **Image Generation**: AI portraits and backgrounds are generated locally on your device(NPU for snapdragon 8 series and cpu/Gpu for others)
+
+## 2. Information We Do Not Collect
+*   **No Personal Data**: We do not collect names, email addresses, phone numbers, or any other personally identifiable information.
+*   **No Tracking/Analytics**: We do not use third-party analytics or tracking SDKs (like Firebase Analytics or Mixpanel). We do not monitor your reading habits or usage patterns.
+*   **No Cloud Sync**: Your library, bookmarks, and settings are stored strictly on your device.
+
+## 3. Information You Provide
+*   **Web Content**: When you use the "Import Web Novel" feature, the app fetches content from the URLs you provide via the public internet. This content is processed locally and stored in your device's storage.
+*   **User-Selected Files**: The app accesses only the specific files or folders you explicitly select for import or background customization.
+
+## 4. Permissions Usage
+Vocabook requests the following permissions to function:
+*   **Internet**: Used only for manual Copyright free web novel imports and downloading necessary AI model updates via Google Play Asset Delivery and hugging Face.
+*   **Storage (API 30+)**: We use Android's Scoped Storage (Storage Access Framework) and MediaStore to save your books and audio files securely. We do not require broad access to all your files.
+*   **Foreground Service**: Required to keep Text-to-Speech playing or to complete large file exports while you use other apps.
+*   **Notifications**: Used to provide playback controls (Play/Pause/Skip) in your notification shade.
+
+## 5. Third-Party Services
+We use the following third-party infrastructure:
+*   **Google Play Store**: Used for app distribution and Play Asset Delivery. Google may collect basic device information as part of their standard Store operations (see [Google's Privacy Policy](https://policies.google.com/privacy)).
+
+## 6. Accessing Your Data
+Since all your data is stored locally, you have total control. You can delete your imported books, audio exports, or generated images at any time within the app or through your device's file manager.
+
+## 7. Changes to This Policy
+We may update this Privacy Policy from time to time. Any changes will be reflected with a new "Last Updated" date at the top.
+
+## 8. Contact Us
+If you have any questions about this Privacy Policy, please contact us through the official developer channel on the platform where you downloaded the app.
